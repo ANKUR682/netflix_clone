@@ -10,7 +10,7 @@
     }
 
     .main {
-        background-image: url("sources/bg.jpg");
+        background-image: url("bg.jpg");
         height: 70vh;
         width: 100vw;
         background-position: center center;
