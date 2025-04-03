@@ -1,0 +1,494 @@
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    * {
+        margin: 0;
+
+    }
+
+    .main {
+        background-image: url("sources/bg.jpg");
+        height: 70vh;
+        width: 100vw;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: max(1000px, 100vw);
+    }
+
+    .box {
+        height: 70vh;
+        background-color: rgb(0, 0, 0);
+        opacity: 0.8;
+    }
+
+    .netflix {
+        margin: -23px -2px;
+    }
+
+    .netflix img {
+        height: 112px;
+        width: 112px;
+        cursor: pointer;
+    }
+
+
+    nav {
+        display: flex;
+        align-items: center;
+        max-width: 70vw;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+
+    button.english {
+        margin: 0px 13px;
+        padding: 4px 9px;
+        border: 0.3px solid rgb(142, 140, 140);
+        border-radius: 3px;
+        background-color: black;
+        color: white;
+    }
+
+
+    button.sign {
+        padding: 5px 9px;
+        font-weight: bold;
+        background-color: rgb(255, 0, 0);
+        border: none;
+        border-radius: 2px;
+        color: white;
+    }
+
+
+
+    button img {
+        margin: 0px 5px;
+        height: 10px;
+        width: 10px;
+    }
+
+    .content {
+        padding-top: 150px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+        gap: 15px;
+        margin: 0px 150px;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+
+    .span1 {
+        font-family: system-ui;
+        font-weight: 800;
+        font-size: 40px;
+
+    }
+
+    .span2 {
+        font-family: system-ui;
+        font-weight: 100;
+        font-size: 20px;
+
+    }
+
+    .span3 {
+        font-family: system-ui;
+        font-weight: 100;
+        font-size: 15px;
+
+    }
+
+    .button {
+        margin-top: 15px;
+        display: flex;
+        justify-content: left;
+        gap: 15px;
+        align-items: center;
+        max-width: 25vw;
+        margin: auto;
+    }
+
+    .button input {
+        height: 35px;
+        border: 0.3px solid rgb(156, 152, 152);
+        background-color: rgb(48, 49, 49);
+        border-radius: 3px;
+        width: 220px;
+    }
+
+    .button button {
+        color: white;
+        margin: 0px;
+        padding: 10px 30px;
+        background-color: red;
+        border-radius: 3px;
+        border: none;
+        font-weight: 600;
+        font-family: system-ui;
+
+    }
+
+    .button button:hover {
+        background-color: brown;
+    }
+
+    input::placeholder {
+        color: rgb(255, 252, 252);
+        padding: 0px 3px;
+        opacity: 1;
+    }
+
+    .separationline {
+        background-color: rgb(49, 47, 47);
+        height: 7px;
+        width: 100vw;
+    }
+
+
+    .first .firstbox {
+        background-color: rgb(0, 0, 0);
+        height: 500px;
+        width: 100vw;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 33px;
+        max-width: 75vw;
+        margin: auto;
+        margin-left: 200px;
+
+    }
+
+    .first {
+        background-color: black;
+
+    }
+
+    .secimg img {
+        height: 350px;
+        width: 450px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .text1 {
+        font-family: system-ui;
+        margin: 20px 0px;
+        font-weight: 800;
+        font-size: 50px;
+
+    }
+
+    .text2 {
+        font-family: system-ui;
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+    .secimg {
+        position: relative;
+    }
+
+    .secimg video {
+        position: absolute;
+        z-index: 0;
+        top: 71px;
+        right: 54px;
+        height: 193px;
+        width: 336px;
+    }
+
+
+
+
+    .second .secondbox {
+        background-color: rgb(0, 0, 0);
+        height: 500px;
+        width: 100vw;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 150px;
+        max-width: 75vw;
+        margin: auto;
+        margin-left: 200px;
+
+    }
+
+    .second {
+        background-color: black;
+
+    }
+
+    .secimg1 img {
+        height: 350px;
+        width: 450px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .text3 {
+        font-family: system-ui;
+        margin: 20px 0px;
+        font-weight: 800;
+        font-size: 50px;
+
+    }
+
+    .text4 {
+        font-family: system-ui;
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+    .secimg1 {
+        position: relative;
+    }
+
+    .secimg1 video {
+        position: absolute;
+        z-index: 0;
+        top: 35px;
+        left: 52px;
+        height: 161px;
+        width: 336px;
+    }
+
+    .second {
+        background-color: black;
+        height: 500px;
+        width: 100vw;
+    }
+
+    .third .thirdbox {
+        background-color: rgb(0, 0, 0);
+        height: 500px;
+        width: 100vw;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 33px;
+        max-width: 75vw;
+        margin: auto;
+        margin-left: 200px;
+
+    }
+
+    .third {
+        background-color: black;
+
+    }
+
+    .secimg2 img {
+        height: 350px;
+        width: 450px;
+
+
+    }
+
+    .text5 {
+        font-family: system-ui;
+        margin: 20px 0px;
+        font-weight: 800;
+        font-size: 50px;
+
+    }
+
+    .text6 {
+        font-family: system-ui;
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+
+
+    .third {
+        background-color: black;
+        height: 500px;
+        width: 100vw;
+    }
+
+
+    .fourth .fourthbox {
+        background-color: rgb(0, 0, 0);
+        height: 500px;
+        width: 100vw;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 33px;
+        max-width: 75vw;
+        margin: auto;
+        margin-left: 200px;
+
+    }
+
+    .fourth {
+        background-color: black;
+
+    }
+
+    .secimg3 img {
+        height: 350px;
+        width: 450px;
+
+
+    }
+
+    .text7 {
+        font-family: system-ui;
+        margin: 20px 0px;
+        font-weight: 800;
+        font-size: 50px;
+
+    }
+
+    .text8 {
+        font-family: system-ui;
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+
+
+    .fourth {
+        background-color: black;
+        height: 500px;
+        width: 100vw;
+    }
+
+    .five {
+        background-color: black;
+        height: 1200px;
+        width: 100vw;
+        color: white;
+    }
+
+    .firstq, .secondq, .thirdq, .fourthq,.fivthq,.sixthq,.seventhq{
+        display: flex;
+        background-color: rgb(65, 65, 65);
+        padding: 0px 44px;
+        font-family: system-ui;
+        margin: 7px;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    .firstq{ 
+        gap: 604px;
+    } 
+    .secondq{ 
+        gap: 427px;
+    }
+    .thirdq{
+        gap: 348px;
+    } 
+    .fourthq{
+        gap: 554px;
+    }
+    .fivthq{
+        gap: 586px;
+    }
+    .sixthq{
+        gap: 434px;
+    }
+    .seventhq{
+        gap: 498px;
+    }
+    .faq {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 87px;
+    }
+   
+    .faq1 {
+        font-family: system-ui;
+        margin: 50px;
+        font-size: 50px;
+        font-weight: 700;
+    } 
+    
+    .button {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin: auto;
+        max-width: 32vw;
+        gap: 27px;
+        
+    }
+    .button1 .input1 {
+        border: 0.3px solid rgb(156, 152, 152);
+        background-color: rgb(48, 49, 49);
+        border-radius: 3px;
+        width: 290px;
+        height: 42px;
+        margin-top: 19px;
+        margin-left: 488px;
+    }
+    .button1 button {
+    height: 46px;
+    color: white;
+    margin-top: 21px;
+    padding: 10px 30px;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    font-weight: 600;
+    font-family: system-ui;
+}
+
+.six {
+    background-color: black;
+    height: 350px;
+    color: gray;
+    width: 100vw;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
+    margin-left: 57px;
+    margin-top: -72px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
